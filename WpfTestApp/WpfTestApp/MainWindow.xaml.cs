@@ -11,5 +11,10 @@ namespace WpfTestApp
         {
             InitializeComponent();
         }
+
+        private void OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
