@@ -14,7 +14,7 @@ namespace WpfTestApp
 
         private void OnClick(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Close();
         }
     }
 }
